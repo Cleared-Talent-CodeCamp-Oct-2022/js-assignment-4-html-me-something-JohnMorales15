@@ -1,14 +1,31 @@
 /* Write your CSS here! */
+body {
+  background-color: rgb(245, 230, 203);
+  margin: 8px;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
 
+#mainHeading{
+  color:red;
+}
+
+.funParagraph{
+  color: green;
+}
 img-container {
-  width: 600px;
-  height: 600px;
+  width: 700px;
+  height: 700px;
     text-align: center;
   }
 
   img {
+    float: inline-start;
+    max-width: 600px;
+    width: 50%;
     border-radius: 25px;
-    display: inline-block;
+    display: flexbox;
     vertical-align: middle;
   }
 h1 {
@@ -16,10 +33,14 @@ h1 {
   text-align: center;
 }
 ul {
-  padding-left: 40%;
+  list-style-position: inside;
+  text-align: center;
 }
 h2 {
   text-align: center;
+}
+#aboutme{
+  color: rgb(0, 37, 78);
 }
 #elopement {
   border: 3px solid rgb(233, 220, 30);
@@ -27,12 +48,14 @@ h2 {
   color: rgb(73, 9, 133);
 }
 
-#MyFirstDeployment{
+#myFirstDeployment{
   border: 3px solid brown;
   background-color: burlywood;
   color: rgb(122, 69, 4);
 }
 
-#Hobbies {
-  border: 3px solid blue;
+#hobbies {
+  border: 3px solid red;
+  background-color: yellow;
+  color: blue;
 }
