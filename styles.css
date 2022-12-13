@@ -1,1 +1,58 @@
 /* Write your CSS here! */
+body {
+  background-color: rgb(245, 230, 203);
+  margin: 8px;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+#mainHeading{
+  color:red;
+  text-align: center;
+}
+
+.funParagraph{
+  color: green;
+}
+img-container {
+  width: 700px;
+  height: 700px;
+    text-align: center;
+  }
+
+  img {
+
+    max-width: 600px;
+    width: 50%;
+    border-radius: 25px;
+    display: flexbox;
+    vertical-align: middle;
+  }
+ul {
+  list-style-position: inside;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+#aboutme{
+  color: rgb(0, 37, 78);
+}
+#elopement {
+  border: 3px solid rgb(233, 220, 30);
+  background-color: rgb(125, 114, 198);
+  color: rgb(73, 9, 133);
+}
+
+#myFirstDeployment{
+  border: 3px solid brown;
+  background-color: burlywood;
+  color: rgb(122, 69, 4);
+}
+
+#hobbies {
+  border: 3px solid red;
+  background-color: yellow;
+  color: blue;
+}
