@@ -21,7 +21,6 @@ img-container {
   }
 
   img {
-    float: inline-start;
     max-width: 600px;
     width: 50%;
     border-radius: 25px;
