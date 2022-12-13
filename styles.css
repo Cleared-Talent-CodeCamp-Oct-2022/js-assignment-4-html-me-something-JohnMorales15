@@ -9,6 +9,7 @@ body {
 
 #mainHeading{
   color:red;
+  text-align: center;
 }
 
 .funParagraph{
@@ -21,16 +22,13 @@ img-container {
   }
 
   img {
+
     max-width: 600px;
     width: 50%;
     border-radius: 25px;
     display: flexbox;
     vertical-align: middle;
   }
-h1 {
-  color:rgb(12, 44, 85);
-  text-align: center;
-}
 ul {
   list-style-position: inside;
   text-align: center;
